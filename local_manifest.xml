@@ -20,7 +20,7 @@
   
     
     <!-- Device Trees -->
-  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="matheucomth" revision="twelve" />
+  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="matheucomth" revision="12" />
     <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="arturo51236" revision="snow" />
      
     <!-- Vendor Trees -->
