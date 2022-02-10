@@ -22,7 +22,6 @@
     <!-- Device Trees -->
   <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="matheucomth" revision="twelve" />
     <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="arturo51236" revision="snow" />
-    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="PixelExperience" revision="twelve" />
      
     <!-- Vendor Trees -->
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="arturo51236" revision="12" />
