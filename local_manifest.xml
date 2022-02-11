@@ -32,6 +32,6 @@
     
    <!-- Hals -->
 
-
+<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.0" />
   
 </manifest>
