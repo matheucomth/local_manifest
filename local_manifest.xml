@@ -24,7 +24,7 @@
     
     <!-- Device Trees -->
   <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="matheucomth" revision="bliss" />
-    <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="arturo51236" revision="snow" />
+  <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="arturo51236" revision="snow" />
      
     <!-- Vendor Trees -->
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="arturo51236" revision="12" />
@@ -34,7 +34,7 @@
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="Evolution-X-Devices" revision="hmp" />
     
    <!-- Hals -->
-
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.0" />
 
   
 </manifest>
