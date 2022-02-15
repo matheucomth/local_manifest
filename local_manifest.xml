@@ -28,8 +28,6 @@
      
    <!-- Kernel Trees -->
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="Evolution-X-Devices" revision="hmp" />
-    
-   <!-- Hals -->
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="PixelExperience" revision="twelve" />
+
   
 </manifest>
