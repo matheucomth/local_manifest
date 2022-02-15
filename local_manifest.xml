@@ -20,10 +20,10 @@
 
      <!-- Junk-->
   <remove-project name="platform_device_qcom_sepolicy-legacy-um" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="PixelExperience" revision="arcadia" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="PixelExperience" revision="twelve" />
     
     <!-- Device Trees -->
-  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="BlissRoms-Devices" revision="bliss" />
+  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="BlissRoms-Devices" revision="arcadia" />
   <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="arturo51236" revision="snow" />
      
     <!-- Vendor Trees -->
