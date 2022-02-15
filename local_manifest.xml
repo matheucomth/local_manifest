@@ -14,16 +14,16 @@
              fetch="https://github.com/PixelExperience" />
      <remote name="Evolution-X-Devices" 
              fetch="https://github.com/Evolution-X-Devices" />
-    <remote name="ArrowOS-Devices" 
-             fetch="https://github.com/ArrowOS-Devices" />
+    <remote name="BlissRoms-Devices" 
+             fetch="https://github.com/BlissRoms-Devices" />
 
 
      <!-- Junk-->
   <remove-project name="platform_device_qcom_sepolicy-legacy-um" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="PixelExperience" revision="twelve" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="PixelExperience" revision="arcadia" />
     
     <!-- Device Trees -->
-  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="matheucomth" revision="bliss" />
+  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="BlissRoms-Devices" revision="bliss" />
   <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="arturo51236" revision="snow" />
      
     <!-- Vendor Trees -->
