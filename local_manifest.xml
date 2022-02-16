@@ -20,6 +20,7 @@
 
      <!-- Junk-->
   <remove-project name="platform_device_qcom_sepolicy-legacy-um" />
+    <remove-project name="
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="PixelExperience" revision="twelve" />
     
     <!-- Device Trees -->
@@ -33,8 +34,5 @@
    <!-- Kernel Trees -->
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="Evolution-X-Devices" revision="hmp" />
     
-   <!-- Hals -->
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.0" />
-
   
 </manifest>
