@@ -20,7 +20,6 @@
 
      <!-- Junk-->
   <remove-project name="platform_device_qcom_sepolicy-legacy-um" />
-    <remove-project name="
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="PixelExperience" revision="twelve" />
     
     <!-- Device Trees -->
