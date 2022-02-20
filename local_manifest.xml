@@ -17,6 +17,8 @@
     <remote name="ArrowOS" 
              fetch="https://github.com/ArrowOS" />
 
+    <!-- JUNK -->
+    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.0" />
   
     <!-- Device Trees -->
   <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="matheucomth" revision="cherish" />
