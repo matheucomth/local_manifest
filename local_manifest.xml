@@ -26,7 +26,7 @@
     
      
    <!-- Kernel Trees -->
-  <project path="kernel/xiaomi/sdm660" name="okta-10/mystic_kernel_sdm660-4.4" remote="github" revision="Mystic-4.4" />
+  <project path="kernel/xiaomi/tulip" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
 
     
 </manifest>
