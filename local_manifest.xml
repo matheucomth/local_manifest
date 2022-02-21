@@ -14,14 +14,11 @@
              fetch="https://github.com/PixelExperience" />
      <remote name="Evolution-X-Devices" 
              fetch="https://github.com/Evolution-X-Devices" />
-    <remote name="ArrowOS" 
-             fetch="https://github.com/ArrowOS" />
-
-    <!-- JUNK -->
-    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.0" />
+    <remote name="okta-10" 
+             fetch="https://github.com/okta-10" />
   
     <!-- Device Trees -->
-  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="matheucomth" revision="cherish" />
+  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="matheucomth" revision="12" />
     <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="arturo51236" revision="snow" />
      
     <!-- Vendor Trees -->
@@ -29,7 +26,7 @@
     
      
    <!-- Kernel Trees -->
-  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="Evolution-X-Devices" revision="hmp" />
+  <project path="kernel/xiaomi/sdm660" name="okta-10/mystic_kernel_sdm660-4.4" remote="github" revision="Mystic-4.4" />
 
  <!-- HALS -->  
 <remove-project name="platform_hardware_qcom_media" />
