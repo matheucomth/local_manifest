@@ -28,12 +28,5 @@
    <!-- Kernel Trees -->
   <project path="kernel/xiaomi/sdm660" name="okta-10/mystic_kernel_sdm660-4.4" remote="github" revision="Mystic-4.4" />
 
- <!-- HALS -->  
-<remove-project name="platform_hardware_qcom_media" />
-<remove-project name="platform_hardware_qcom_audio" />
-<remove-project name="platform_hardware_qcom_display" />
-<project path="hardware/qcom-caf/msm8998/display" name="PixelExperience/hardware_qcom-caf_msm8998_display" remote="github" revision="twelve" />
-<project path="hardware/qcom-caf/msm8998/media" name="PixelExperience/hardware_qcom-caf_msm8998_media" remote="github" revision="twelve" />
-<project path="hardware/qcom-caf/msm8998/audio" name="PixelExperience/hardware_qcom-caf_msm8998_audio" remote="github" revision="twelve" />
     
 </manifest>
