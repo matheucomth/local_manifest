@@ -27,11 +27,11 @@
   <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="arturo51236" revision="snow" />
      
     <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="arturo51236" revision="12" />
+  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="BlissRoms-Devices" revision="12" />
     
      
    <!-- Kernel Trees -->
-  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="Evolution-X-Devices" revision="hmp" />
+  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="BlissRoms-Devices" revision="hmp" />
     
   
 </manifest>
