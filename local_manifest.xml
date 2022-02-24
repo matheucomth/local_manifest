@@ -6,8 +6,6 @@
      <!-- Remote -->
      <remote name="matheucomth" 
              fetch="https://github.com/matheucomth" />
-     <remote name="LineageOS" 
-             fetch="https://github.com/LineageOS" />
      <remote name="arturo51236" 
              fetch="https://github.com/arturo51236" />
          <remote name="PixelExperience" 
