@@ -18,20 +18,17 @@
              fetch="https://github.com/BlissRoms-Devices" />
 
 
-     <!-- Junk-->
-  <remove-project name="platform_device_qcom_sepolicy-legacy-um" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="PixelExperience" revision="twelve" />
     
     <!-- Device Trees -->
-  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="BlissRoms-Devices" revision="arcadia" />
+  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="matheucomth" revision="aex" />
   <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="arturo51236" revision="snow" />
      
     <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="BlissRoms-Devices" revision="12" />
+  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="matheucomth" revision="12" />
     
      
    <!-- Kernel Trees -->
-  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="BlissRoms-Devices" revision="hmp" />
+  <project path="kernel/xiaomi/sdm660" name="okta-10/mystic_kernel_sdm660-4.4" remote="github" revision="Mystic-4.4" />
     
   
 </manifest>
