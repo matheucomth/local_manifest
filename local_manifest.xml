@@ -33,7 +33,9 @@
     
      <!-- HALS -->  
 <remove-project name="device_qcom_sepolicy-legacy-um" />
+<remove-project name="device_qcom_sepolicy" />
 <project path="device/qcom/sepolicy-legacy-um" name="PixelExperience/device_qcom_sepolicy-legacy-um" remote="github" revision="twelve" />
+<project path="device/qcom/sepolicy" name="PixelExperience/device_qcom_sepolicy" remote="github" revision="twelve" />
     
   
 </manifest>
