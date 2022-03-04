@@ -33,7 +33,7 @@
 <remove-project name="device_qcom_sepolicy-legacy-um" />
 <remove-project name="device_kraken_sepolicy" />
 <remove-project name="vendor_qcom_opensource_fm-commonsys" />
-<project path="device/qcom/sepolicy-legacy-um" name="PixelExperience/vendor_qcom_opensource_fm-commonsys" remote="github" revision="twelve" />
-<project path="vendor/qcom/opensource/fm-commonsys" name="PixelExperience/device_qcom_sepolicy-legacy-um" remote="github" revision="twelve" />
+<project path="device/qcom/sepolicy-legacy-um" name="PixelExperience/device_qcom_sepolicy-legacy-um" remote="github" revision="twelve" />
+<project path="vendor/qcom/opensource/fm-commonsys" name="PixelExperience/vendor_qcom_opensource_fm-commonsys" remote="github" revision="twelve" />
   
 </manifest>
