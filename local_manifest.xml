@@ -33,6 +33,8 @@
     
  <!-- HALS -->  
 <remove-project name="platform_device_qcom_sepolicy" />
+<remove-project name="platform_external_selinux" />
+<project path="external/selinux" name="PixelExperience/external_selinux" remote="github" revision="twelve" />
 <project path="device/qcom/sepolicy-legacy-um" name="PixelExperience/device_qcom_sepolicy-legacy-um" remote="github" revision="twelve" />
   
 </manifest>
