@@ -27,7 +27,7 @@
     
      
    <!-- Kernel Trees -->
-  <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
+  <project path="kernel/xiaomi/sdm660" name="Atom-X-Devs/android_kernel_xiaomi_scarlet" remote="github" revision="default-QTI" />
     
      <!-- HALS -->  
 <remove-project name="device_qcom_sepolicy-legacy-um" />
