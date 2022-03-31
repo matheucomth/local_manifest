@@ -20,7 +20,7 @@
     <!-- Device Trees -->
   <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="matheucomth" revision="kraken" />
   <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="arturo51236" revision="snow" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-19.0" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-19.1" />
     
     <!-- Vendor Trees -->
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="matheucomth" revision="12" />
