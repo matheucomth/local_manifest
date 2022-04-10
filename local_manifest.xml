@@ -18,7 +18,7 @@
              fetch="https://github.com/BlissRoms-Devices" />
 <!-- Device Trees -->
   <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="matheucomth" revision="PixysOS" />
-  <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="matheucomth" revision="snow" /> 
+
 
     <!-- Vendor Trees -->
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="matheucomth" revision="12" />
