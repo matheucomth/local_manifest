@@ -21,7 +21,7 @@
     
    <!-- Hals -->
   <remove-project name="android_hardware_xiaomi" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-19.0" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-19.1" />
      
     <!-- Vendor Trees -->
   <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="arturo51236" revision="12" />
