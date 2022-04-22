@@ -17,18 +17,15 @@
   
     <!-- Device Trees -->
   <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="matheucomth" revision="cherish" />
-  <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="arturo51236" revision="snow" />
+  <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="matheucomth" revision="snow" /> 
     
-   <!-- Hals -->
-  <remove-project name="android_hardware_xiaomi" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-19.1" />
-     
     <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="arturo51236" revision="12" />
-    
+  <project path="vendor/xiaomi/tulip" name="vendor_xiaomi_tulip" remote="matheucomth" revision="snow" />
      
    <!-- Kernel Trees -->
   <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
-
+    
+     <!-- HALS -->
+ <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1" />  
     
 </manifest>
