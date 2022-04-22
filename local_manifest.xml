@@ -17,10 +17,12 @@
     <remote name="BlissRoms-Devices" 
              fetch="https://github.com/BlissRoms-Devices" />
 
-
+<!-- Hals -->
+<remove-project name="hardware_xiaomi" />
+<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-19.1" />
+    
 <!-- Device Trees -->
   <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="matheucomth" revision="spark" />
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-19.1" />
   <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="matheucomth" revision="snow" /> 
     
     <!-- Vendor Trees -->
