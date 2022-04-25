@@ -28,6 +28,6 @@
   <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
     
      <!-- HALS -->
- <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1" />  
+ <project path="packages/resources/devicesettings" name="PixelExperience/packages_resources_devicesettings" remote="github" revision="twelve" />  
   
 </manifest>
