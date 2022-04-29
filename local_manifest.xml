@@ -25,5 +25,8 @@
    <!-- Kernel Trees -->
   <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
     
-
+<!-- HALS -->
+    <remove-project name="android_packages_apps_Cherish" />
+    <project path="packages/apps/Cherish" name="Sandeep-FED/android_packages_apps_Cherish" remote="github" revision="twelve-one" />
+    
 </manifest>
