@@ -33,12 +33,5 @@
             remote="github" 
             revision="twelve" />
    
-<!-- Display -->
-      <remove-project name="android_hardware_qcom_display" />
-        <project path="hardware/qcom/display" 
-            name="matheucomth/platform_hardware_qcom_display" 
-            remote="github" 
-            revision="12.1.x-caf-msm8998" />
- 
 
 </manifest>
