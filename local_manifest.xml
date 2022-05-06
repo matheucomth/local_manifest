@@ -26,6 +26,9 @@
      
    <!-- Kernel Trees -->
   <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
-   <project path="packages/resources/devicesettings" name="PixelExperience/packages_resources_devicesettings" remote="github" revision="twelve" />
+    
+    <!-- HALS -->
+<project path="packages/resources/devicesettings" name="PixelExperience/packages_resources_devicesettings" remote="github" revision="twelve" />
+   <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.1-caf-msm8998" />
   
 </manifest>
