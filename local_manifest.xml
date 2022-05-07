@@ -29,7 +29,5 @@
     
     <!-- HALS -->
 <project path="packages/resources/devicesettings" name="PixelExperience/packages_resources_devicesettings" remote="github" revision="twelve" />
-<remove-project name="hardware_qcom-caf_msm8998_display" />
-   <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.1-caf-msm8998" />
-  
+
 </manifest>
