@@ -29,5 +29,7 @@
     
     <!-- HALS -->
 <project path="packages/resources/devicesettings" name="PixelExperience/packages_resources_devicesettings" remote="github" revision="twelve" />
+<remove-project name="vendor_pixys" />
+<project path="vendor/pixys" name="NRanjan-17/vendor_pixys" remote="github" revision="twelve" />
 
 </manifest>
