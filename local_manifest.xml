@@ -37,7 +37,8 @@
     
          <project path="hardware/qcom-caf/msm8998/display" 
             name="PixelExperience/hardware_qcom-caf_msm8998_display" 
-            remote="github"  />
+            remote="github"
+            revision="twelve" />  
 
            <project path="hardware/qcom-caf/msm8998/media" 
             name="PixelExperience/hardware_qcom-caf_msm8998_media" 
