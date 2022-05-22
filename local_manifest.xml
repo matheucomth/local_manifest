@@ -16,7 +16,7 @@
            fetch="https://github.com/ChuckProjekt"/>
   
     <!-- Device Trees -->
-  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="matheucomth" revision="cherish" />
+  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="matheucomth" revision="cherish" />
   <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="matheucomth" revision="snow" /> 
     
     <!-- Vendor Trees -->
