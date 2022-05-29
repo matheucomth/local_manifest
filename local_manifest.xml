@@ -14,14 +14,10 @@
              fetch="https://github.com/PixelExperience" />
      <remote name="Evolution-X-Devices" 
              fetch="https://github.com/Evolution-X-Devices" />
-    <remote name="BlissRoms-Devices" 
-             fetch="https://github.com/BlissRoms-Devices" />
-
     
     <!-- Device Trees -->
-  <project path="device/xiaomi/tulip" name="matheucomth/device_xiaomi_tulip" remote="github" revision="superior" />
-  <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="matheucomth" revision="snow" /> 
-
+  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="matheucomth" revision="superior" />
+    
     <!-- Vendor Trees -->
   <project path="vendor/xiaomi/tulip" name="arturo51236/vendor_xiaomi_tulip" remote="github" revision="12" />
      
