@@ -26,5 +26,12 @@
    <!-- Kernel Trees -->
 <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
 
-
+    <!-- HALS -->  
+    <project path="hardware/qcom-caf/sm8350/display" name="PixelExperience/hardware_qcom-caf_sm8350_display" remote="github" revision="twelve" />
+    <project path="hardware/qcom-caf/sm8350/audio" name="PixelExperience/hardware_qcom-caf_sm8350_audio" remote="github" revision="twelve" />
+    <project path="hardware/qcom-caf/sm8350/media" name="PixelExperience/hardware_qcom-caf_sm8350_media" remote="github" revision="twelve" />
+    <project path="hardware/qcom-caf/msm8998/display" name="PixelExperience/hardware_qcom-caf_msm8998_display" remote="github" revision="twelve" />
+    <project path="hardware/qcom-caf/msm8998/media" name="PixelExperience/hardware_qcom-caf_msm8998_media" remote="github" revision="twelve" />
+    <project path="hardware/qcom-caf/msm8998/audio" name="PixelExperience/hardware_qcom-caf_msm8998_audio" remote="github" revision="twelve" />
+    
 </manifest>
