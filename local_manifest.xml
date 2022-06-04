@@ -18,7 +18,7 @@
 
      
     <!-- Device Trees -->
-  <project path="device/xiaomi/tulip" name="matheucomth/device_xiaomi_tulip" remote="github" revision="kraken" />
+  <project path="device/xiaomi/tulip" name="matheucomth/device_xiaomi_tulip" remote="github" revision="bliss" />
 
     <!-- Vendor Trees -->
   <project path="vendor/xiaomi/tulip" name="arturo51236/vendor_xiaomi_tulip" remote="github" revision="12" />
