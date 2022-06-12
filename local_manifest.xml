@@ -19,7 +19,7 @@
   <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="matheucomth" revision="cherish" />
     
     <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/tulip" name="arturo51236/vendor_xiaomi_tulip" remote="github" revision="12" />
+  <project path="vendor/xiaomi/tulip" name="matheucomth/vendor_xiaomi_tulip" remote="github" revision="12" />>
      
    <!-- Kernel Trees -->
   <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
