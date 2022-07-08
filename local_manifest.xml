@@ -29,6 +29,7 @@
   <!-- HALS -->  
 <remove-project name="hardware_qcom-caf_msm8998_display" /> 
 <remove-project name="vendor_qcom_opensource_commonsys-intf_display" /> 
+<project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.1-caf-msm8998" />
 
 
 </manifest>
