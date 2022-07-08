@@ -28,6 +28,7 @@
     
   <!-- HALS -->  
 <remove-project name="hardware_qcom-caf_msm8998_display" /> 
+<remove-project name="vendor_qcom_opensource_commonsys-intf_display" /> 
 
 
 </manifest>
