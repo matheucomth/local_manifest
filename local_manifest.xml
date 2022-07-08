@@ -27,9 +27,7 @@
   <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
     
   <!-- HALS -->  
- 
-
-  <project path="hardware/qcom-caf/sdm660/display" name="LineageOS/android_hardware_qcom_display" remote="hals" revision="lineage-19.1-caf-msm8998" />
+<remove-project name="hardware_qcom-caf_msm8998_display" /> 
 
 
 </manifest>
