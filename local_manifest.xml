@@ -27,7 +27,7 @@
   <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
     
   <!-- HALS -->  
-<remove-project name="hardware_qcom-caf_msm8998_display" /> 
+<remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" /> 
 
 
 </manifest>
