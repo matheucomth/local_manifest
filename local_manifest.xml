@@ -26,8 +26,5 @@
    <!-- Kernel Trees -->
   <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
     
-  <!-- HALS -->  
-<remove-project name="vendor_qcom_opensource_commonsys-intf_display" /> 
-
 
 </manifest>
