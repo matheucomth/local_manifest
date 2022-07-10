@@ -27,6 +27,13 @@
     
     <!-- HALS -->
 <project path="packages/resources/devicesettings" name="PixelExperience/packages_resources_devicesettings" remote="github" revision="twelve" />
+    
+<remove-project name="hardware_qcom-caf_msm8998_display" />
+<remove-project name="hardware_qcom-caf_msm8998_media" />
+<remove-project name="hardware_qcom-caf_msm8998_audio" />
+<project path="hardware/qcom-caf/msm8998/display" name="PixelExperience/hardware_qcom-caf_msm8998_display" remote="github" revision="twelve" />
+<project path="hardware/qcom-caf/msm8998/media" name="PixelExperience/hardware_qcom-caf_msm8998_media" remote="github" revision="twelve" />
+<project path="hardware/qcom-caf/msm8998/audio" name="PixelExperience/hardware_qcom-caf_msm8998_audio" remote="github" revision="twelve" />
 
 
 </manifest>
