@@ -16,16 +16,16 @@
              fetch="https://github.com/Evolution-X-Devices" />
     <remote name="BlissRoms-Devices" 
              fetch="https://github.com/BlissRoms-Devices" />
-<!-- Device Trees -->
-  <project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="matheucomth" revision="spark" />
-  <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="matheucomth" revision="snow" /> 
     
-    <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/tulip" name="arturo51236/vendor_xiaomi_tulip" remote="github" revision="12" />
-     
-   <!-- Kernel Trees -->
-  <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
+    
+    <!-- Device Trees -->
+  <project path="device/xiaomi/tulip" name="matheucomth/device_xiaomi_tulip" remote="github" revision="spark" />
 
+    <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/tulip" name="matheucomth/vendor_xiaomi_tulip" remote="github" revision="12" />
+     
+<!-- Kernel Trees -->
+<project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
     
 
 </manifest>
