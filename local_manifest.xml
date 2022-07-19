@@ -24,5 +24,12 @@
    <!-- Kernel Trees -->
   <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
     
+    <!-- Display -->
+      <remove-project name="android_hardware_qcom_display" />
+        <project path="hardware/qcom/display" 
+            name="PixelExperience/hardware_qcom-caf_msm8998_display" 
+            remote="github" 
+            revision="twelve" />
+    
 
 </manifest>
