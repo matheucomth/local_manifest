@@ -29,6 +29,6 @@
     
        <!-- HALS -->
 <project path="prebuilts/clang/host/linux-x86/clang-neutron" name="dakkshesh07/neutron-clang" remote="gitlab" revision="Neutron-15" />
-<project path="hardware/qcom/display" name="PixelExperience/hardware_qcom_display" remote="github" revision="twelve" />
-
+<remove-project name="android_hardware_qcom_display" />
+<project path="hardware/qcom-caf/msm8998/display" name="PixelExperience/hardware_qcom-caf_msm8998_display" remote="github" revision="twelve" />
 </manifest>
