@@ -29,6 +29,6 @@
     
        <!-- HALS -->
 <project path="prebuilts/clang/host/linux-x86/clang-neutron" name="dakkshesh07/neutron-clang" remote="gitlab" revision="Neutron-15" />
-    
+<project path="hardware/qcom/display" name="PixelExperience/hardware_qcom_display" remote="github" revision="twelve" />
 
 </manifest>
