@@ -14,9 +14,11 @@
              fetch="https://github.com/PixelExperience" />
      <remote name="Evolution-X-Devices" 
              fetch="https://github.com/Evolution-X-Devices" />
-    
-    <!-- Device Trees -->
-  <project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="matheucomth" revision="superior" />
+    <remote name="BlissRoms-Devices" 
+             fetch="https://github.com/BlissRoms-Devices" />
+
+<!-- Device Trees -->
+  <project path="device/xiaomi/tulip" name="matheucomth/device_xiaomi_tulip" remote="github" revision="superior" />
     
     <!-- Vendor Trees -->
   <project path="vendor/xiaomi/tulip" name="arturo51236/vendor_xiaomi_tulip" remote="github" revision="12" />
@@ -24,8 +26,8 @@
    <!-- Kernel Trees -->
   <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
     
-     <!-- HALS -->
+    
+    <!-- HALS -->
 <project path="prebuilts/clang/host/linux-x86/clang-neutron" name="dakkshesh07/neutron-clang" remote="gitlab" revision="Neutron-15" />
  
-  
 </manifest>
