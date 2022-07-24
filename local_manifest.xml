@@ -26,8 +26,7 @@
    <!-- Kernel Trees -->
   <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
     
-    
-    <!-- HALS -->
-<project path="prebuilts/clang/host/linux-x86/clang-neutron" name="dakkshesh07/neutron-clang" remote="gitlab" revision="Neutron-15" />
+<!-- HALS -->
+    <project path="hardware/xiaomi" name="matheucomth/hardware_xiaomi" remote="github" revision="twelve" />
  
 </manifest>
