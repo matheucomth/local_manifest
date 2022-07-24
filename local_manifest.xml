@@ -28,5 +28,6 @@
 <project path="kernel/xiaomi/sdm660" name="F2LX/kernel_xiaomi_sdm660" remote="github" revision="kernel-eas" />
 
 <!-- HALS -->
+<remove-project name="hardware_xiaomi" />
     <project path="hardware/xiaomi" name="matheucomth/hardware_xiaomi" remote="github" revision="twelve" />
 </manifest>
