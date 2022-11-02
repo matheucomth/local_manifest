@@ -25,7 +25,7 @@
     
    
        <!-- CLANG -->
-    <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" />
+    <project path="prebuilts/clang/host/linux-x86/clang-sdllvm" name="NerdZ3ns/SDClang" remote="github" revision="14" />
 
 
  <!-- HALS -->
