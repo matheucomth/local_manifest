@@ -22,9 +22,12 @@
 
    <!-- Kernel Trees -->
 <project path="kernel/xiaomi/sdm660" name="matheucomth/kernel_xiaomi_tulip-4.19" remote="github" revision="4.19-t-wip" />
-
+    
    
- 
+       <!-- CLANG -->
+    <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" />
+
+
  <!-- HALS -->
 <remove-project name="hardware_qcom-caf_msm8998_media" />
 <remove-project name="hardware_qcom-caf_msm8998_display" />
