@@ -31,7 +31,9 @@
  <!-- HALS -->
 <remove-project name="hardware_qcom-caf_msm8998_media" />
 <remove-project name="hardware_qcom-caf_msm8998_display" />
-<project path="hardware/qcom-caf/msm8998/display" name="matheucomth/hardware_qcom-caf_sdm660_display" remote="github" revision="13" />
-<project path="hardware/qcom-caf/msm8998/media" name="nerdprojectorg/android_hardware_qcom-caf_sdm660_media" remote="github" revision="tm" />
-
+<remove-project name="hardware_qcom-caf_msm8998_audio" />
+<project path="hardware/qcom-caf/sdm660/display" name="pix106/android_hardware_qcom-caf_display" remote="github" revision="sdm660-4.19-R-13" />
+<project path="hardware/qcom-caf/sdm660/media" name="pix106/android_hardware_qcom-caf_media" remote="github" revision="sdm660-4.19-R-13" />
+<project path="hardware/qcom-caf/sdm660/audio" name="pix106/android_hardware_qcom-caf_audio" remote="github" revision="sdm660-4.19-R-13" />
+    
 </manifest>
