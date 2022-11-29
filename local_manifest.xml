@@ -34,6 +34,8 @@
 <remove-project name="hardware_qcom-caf_msm8998_media" />
 <remove-project name="hardware_qcom-caf_msm8998_display" />
 <remove-project name="hardware_qcom-caf_msm8998_audio" />
+<remove-project name="PixelExperience/system_sepolicy" />
+<project path="system/sepolicy" name="ArrowOS/android_system_sepolicy" remote="github" revision="arrow-13.0" />
 <project path="hardware/qcom-caf/sdm660/display" name="matheucomth/android_hardware_qcom-caf_display" remote="github" revision="sdm660-4.19-R-13" />
 <project path="hardware/qcom-caf/sdm660/media" name="matheucomth/android_hardware_qcom-caf_media" remote="github" revision="sdm660-4.19-R-13" />
 <project path="hardware/qcom-caf/sdm660/audio" name="matheucomth/android_hardware_qcom-caf_audio" remote="github" revision="sdm660-4.19-R-13" />
