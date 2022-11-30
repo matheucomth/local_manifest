@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    
-     <!-- Remote -->
-     <remote name="matheucomth" 
-             fetch="https://github.com/matheucomth" />
-     <remote name="LineageOS" 
-             fetch="https://github.com/LineageOS" />
-     <remote name="arturo51236" 
-             fetch="https://github.com/arturo51236" />
-         <remote name="PixelExperience" 
-             fetch="https://github.com/PixelExperience" />
-     <remote name="Evolution-X-Devices" 
-             fetch="https://github.com/Evolution-X-Devices" />
 
 <!-- Device Trees -->
   <project path="device/xiaomi/tulip" name="matheucomth/device_xiaomi_tulip-4.19" remote="github" revision="13" />
