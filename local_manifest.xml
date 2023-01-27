@@ -9,12 +9,11 @@
   <project path="vendor/xiaomi/tulip" name="matheucomth/vendor_xiaomi_tulip-4.19" remote="github" revision="13" />
 
    <!-- Kernel Trees -->
-<project path="kernel/xiaomi/sdm660" name="matheucomth/kernel_xiaomi_tulip-4.19" remote="github" revision="4.19-t-wip" />
+<project path="kernel/xiaomi/sdm660" name="Atom-X-Devs/android_kernel_xiaomi_scarlet" remote="github" revision="a13/qpnp-haptics" />
     
    
        <!-- CLANG -->
-    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" />
 
 
