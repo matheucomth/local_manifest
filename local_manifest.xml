@@ -21,7 +21,6 @@
 <remove-project name="hardware_qcom-caf_msm8998_media" />
 <remove-project name="hardware_qcom-caf_msm8998_display" />
 <remove-project name="hardware_qcom-caf_msm8998_audio" />
-<remove-project name="hardware_qcom-caf_sdm845_display" />
 <project path="hardware/qcom-caf/sdm660/display" name="nerdprojectorg/android_hardware_qcom-caf_sdm660_display" remote="github" revision="tm" />
 <project path="hardware/qcom-caf/sdm660/media" name="nerdprojectorg/android_hardware_qcom-caf_sdm660_media" remote="github" revision="tm" />
 <project path="hardware/qcom-caf/sdm660/audio" name="nerdprojectorg/android_hardware_qcom-caf_sdm660_audio" remote="github" revision="tm" />
