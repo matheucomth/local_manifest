@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-       <!-- Remote -->
+    
+     <!-- Remote -->
 <remote name="ImSurajxD"
 		   fetch="https://gitlab.com/ImSurajxD" />
         <remote name="clang"
@@ -14,8 +15,8 @@
   <project path="vendor/xiaomi/tulip" name="matheucomth/vendor_xiaomi_tulip-4.19" remote="github" revision="13" />
 
    <!-- Kernel Trees -->
-<project path="kernel/xiaomi/sdm660" name="mikeNG/android_kernel_qcom_sdm660" remote="github" revision="lineage-20" />
-    
+<project path="kernel/xiaomi/sdm660" name="mikeNG/android_kernel_qcom_sdm660" remote="github" revision="13" />
+		
 	<!-- CLANG -->
   <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" /> 
 <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
@@ -27,5 +28,5 @@
 <project path="hardware/qcom-caf/sdm660/display" name="nerdprojectorg/android_hardware_qcom-caf_sdm660_display" remote="github" revision="tm" />
 <project path="hardware/qcom-caf/sdm660/media" name="nerdprojectorg/android_hardware_qcom-caf_sdm660_media" remote="github" revision="tm" />
 <project path="hardware/qcom-caf/sdm660/audio" name="nerdprojectorg/android_hardware_qcom-caf_sdm660_audio" remote="github" revision="tm" />
-    
+    	
 </manifest>
