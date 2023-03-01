@@ -9,7 +9,7 @@
   <project path="vendor/xiaomi/tulip" name="matheucomth/vendor_xiaomi_tulip-4.19" remote="github" revision="13" />
 
    <!-- Kernel Trees -->
-<project path="kernel/xiaomi/sdm660" name="Atom-X-Devs/android_kernel_xiaomi_scarlet" remote="github" revision="a13/qpnp-haptics" />
+<project path="kernel/xiaomi/sdm660" name="mikeNG/android_kernel_qcom_sdm660" remote="github" revision="lineage-20" />
     
    
        <!-- CLANG -->
