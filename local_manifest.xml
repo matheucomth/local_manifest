@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+       <!-- Remote -->
+<remote name="ImSurajxD"
+		   fetch="https://gitlab.com/ImSurajxD" />
+        <remote name="clang"
+          fetch="https://gitlab.com/arrowos-project" />	
 
 <!-- Device Trees -->
   <project path="device/xiaomi/tulip" name="matheucomth/device_xiaomi_tulip-4.19" remote="github" revision="13" />
@@ -11,11 +16,9 @@
    <!-- Kernel Trees -->
 <project path="kernel/xiaomi/sdm660" name="mikeNG/android_kernel_qcom_sdm660" remote="github" revision="lineage-20" />
     
-   
-       <!-- CLANG -->
-<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-<project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" />
-
+	<!-- CLANG -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" /> 
+<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 
  <!-- HALS -->
 <remove-project name="hardware_qcom-caf_msm8998_media" />
