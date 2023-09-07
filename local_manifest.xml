@@ -22,5 +22,5 @@
 
 <!-- EXTRAS -->
 <remove-project name="android_hardware_qcom_display" />
-<project path="kernel/xiaomi/onclite" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-20.0" />	
+<project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-20.0" />	
 </manifest>
