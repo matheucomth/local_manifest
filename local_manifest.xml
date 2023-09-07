@@ -20,8 +20,5 @@
 <!-- CLANG -->
 <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" /> 
 <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
-	
-<!-- EXTRAS -->
-<remove-project name="android_hardware_qcom_display" />
-<project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-20.0" />	
+		
 </manifest>
