@@ -21,7 +21,6 @@
 <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" /> 
 
 <!-- Extras -->
-<remove-project name="ArrowOS/android_hardware_qcom_display" />
 <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-20.0" />
 <project path="vendor/PixelLauncherExtended" name="StudioKeys/vendor_PixelLauncherExtended" remote="github" revision="13" />
 </manifest>
