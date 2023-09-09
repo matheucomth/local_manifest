@@ -22,6 +22,6 @@
 
 <!-- Extras -->
 <remove-project name="android_hardware_qcom_display" />
-<project path="hardware/qcom-caf/msm8996/display" name="PixelExperience/hardware_qcom-caf_msm8996_display" remote="github" revision="thirteen" />
+<project path="hardware/qcom-caf/msm8996/display" name="jacksproject/hardware_qcom-caf_msm8996_display" remote="github" revision="13" />
 <project path="vendor/PixelLauncherExtended" name="StudioKeys/vendor_PixelLauncherExtended" remote="github" revision="13" />
 </manifest>
