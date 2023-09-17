@@ -14,7 +14,7 @@
     <!-- Vendor Trees -->
   <project path="vendor/xiaomi/onclite" name="matheucomth/vendor_xiaomi_onclite" remote="github" revision="13" />
 
-   <!-- Kernel Trees -->
+ <!-- Kernel Trees -->
 <project path="kernel/xiaomi/onclite" name="LineageOS/android_kernel_xiaomi_onclite" remote="github" revision="lineage-20" />
 
 <!-- CLANG -->
