@@ -9,7 +9,7 @@
           fetch="https://gitlab.com/arrowos-project" />	
 
 <!-- Device Trees -->
-  <project path="device/xiaomi/onclite" name="matheucomth/device_xiaomi_onclite" remote="github" revision="pixelos" />
+  <project path="device/xiaomi/onclite" name="matheucomth/device_xiaomi_onclite" remote="github" revision="13" />
    
     <!-- Vendor Trees -->
   <project path="vendor/xiaomi/onclite" name="matheucomth/vendor_xiaomi_onclite" remote="github" revision="13" />
@@ -20,6 +20,4 @@
 <!-- CLANG -->
 	<project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" /> 
 
-<!-- EXTRAS -->
-	<project path="vendor/PixelLauncherExtended" name="StudioKeys/vendor_PixelLauncherExtended" remote="github" revision="13" />
 </manifest>
