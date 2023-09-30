@@ -22,5 +22,5 @@
 
 <!-- Extras -->
 <project path="hardware/qcom-caf/msm8996/display" name="afterallafk/hardware_qcom-caf_msm8996_display " remote="github" revision="13" />
-<project path="vendor/PixelLauncherExtended" name="StudioKeys/vendor_PixelLauncherExtended" remote="github" revision="13" />
+	<project path="vendor/PixelLauncherExtended" name="StudioKeys/vendor_PixelLauncherExtended" remote="github" revision="13" />
 </manifest>
