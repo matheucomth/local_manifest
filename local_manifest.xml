@@ -21,5 +21,5 @@
 <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" /> 
 
 <!-- Extras -->
-<project path="hardware/qcom-caf/msm8996/display" name="afterallafk/hardware_qcom-caf_msm8996_display " remote="github" revision="13" />
+<project path="hardware/qcom-caf/msm8996/display" name="mrun1corn/hardware_qcom-caf_msm8996_display" remote="github" revision="13" />
 </manifest>
