@@ -9,24 +9,15 @@
           fetch="https://gitlab.com/arrowos-project" />	
 
 <!-- Device Trees -->
-  <project path="device/xiaomi/tulip" name="matheucomth/device_xiaomi_tulip-4.19" remote="github" revision="13" />
+  <project path="device/xiaomi/tulip" name="matheucomth/android_device_xiaomi_tulip" remote="github" revision="13" />
    
     <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/tulip" name="matheucomth/vendor_xiaomi_tulip-4.19" remote="github" revision="13" />
+  <project path="vendor/xiaomi/tulip" name="matheucomth/vendor_xiaomi_tulip" remote="github" revision="13" />
 
    <!-- Kernel Trees -->
-<project path="kernel/xiaomi/sdm660" name="mikeNG/android_kernel_qcom_sdm660" remote="github" revision="xiaomi-rebase" />
+<project path="kernel/xiaomi/sdm660" name="matheucomth/kernel_xiaomi_sdm660" remote="github" revision="13" />
 		
 	<!-- CLANG -->
   <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" /> 
-<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
-
- <!-- HALS -->
-<remove-project name="hardware_qcom-caf_msm8998_media" />
-<remove-project name="hardware_qcom-caf_msm8998_display" />
-<remove-project name="hardware_qcom-caf_msm8998_audio" />
-<project path="hardware/qcom-caf/sdm660/display" name="nerdprojectorg/android_hardware_qcom-caf_sdm660_display" remote="github" revision="tm" />
-<project path="hardware/qcom-caf/sdm660/media" name="nerdprojectorg/android_hardware_qcom-caf_sdm660_media" remote="github" revision="tm" />
-<project path="hardware/qcom-caf/sdm660/audio" name="nerdprojectorg/android_hardware_qcom-caf_sdm660_audio" remote="github" revision="tm" />
     	
 </manifest>
