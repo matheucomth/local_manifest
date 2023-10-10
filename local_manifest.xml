@@ -9,7 +9,7 @@
           fetch="https://gitlab.com/arrowos-project" />	
 
 <!-- Device Trees -->
-  <project path="device/xiaomi/onclite" name="matheucomth/device_xiaomi_onclite" remote="github" revision="pixelos" />
+  <project path="device/xiaomi/onclite" name="matheucomth/device_xiaomi_onclite" remote="github" revision="pixys" />
    
     <!-- Vendor Trees -->
   <project path="vendor/xiaomi/onclite" name="matheucomth/vendor_xiaomi_onclite" remote="github" revision="13" />
