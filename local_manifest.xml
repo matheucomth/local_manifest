@@ -17,6 +17,5 @@
  <!-- Clang -->
  <project path="prebuilts/clang-standalone" name="aosp-clang" remote="me-lab" revision="17" clone-depth="1" />
 
-<!-- EXTRAS -->
-<remove-project name="packages_apps_FMRadio" />
+
 </manifest>
