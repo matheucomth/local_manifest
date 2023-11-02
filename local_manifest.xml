@@ -2,8 +2,8 @@
 <manifest>
 
 <!-- REMOTE -->
-    <remote name="me-lab"
-            fetch="https://gitlab.com/anandhan07/" />
+        <remote name="clang"
+          fetch="https://gitlab.com/arrowos-project" />	
 
 <!-- Device Trees -->
   <project path="device/xiaomi/onclite" name="matheucomth/device_xiaomi_onclite" remote="github" revision="evolution" />
@@ -14,8 +14,9 @@
    <!-- Kernel Trees -->
 <project path="kernel/xiaomi/onclite" name="LineageOS/android_kernel_xiaomi_onclite" remote="github" revision="lineage-20" />
 
- <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="zyc_clang-16" remote="me-lab" revision="main" clone-depth="1"/>
+	<!-- CLANG -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" /> 
+
 
 
 </manifest>
