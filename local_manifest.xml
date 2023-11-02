@@ -3,9 +3,6 @@
 
     
      <!-- Remote -->
-<remote name="ImSurajxD"
-		   fetch="https://gitlab.com/ImSurajxD" />
-	
  <remote name="lab"
          fetch="https://gitlab.com/dogpoopy/"
          clone-depth="1" />
