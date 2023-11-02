@@ -5,8 +5,10 @@
      <!-- Remote -->
 <remote name="ImSurajxD"
 		   fetch="https://gitlab.com/ImSurajxD" />
-        <remote name="clang"
-          fetch="https://gitlab.com/arrowos-project" />	
+	
+ <remote name="lab"
+         fetch="https://gitlab.com/dogpoopy/"
+         clone-depth="1" />
 
 <!-- Device Trees -->
   <project path="device/xiaomi/onclite" name="matheucomth/device_xiaomi_onclite" remote="github" revision="evolution" />
@@ -17,8 +19,11 @@
    <!-- Kernel Trees -->
 <project path="kernel/xiaomi/onclite" name="LineageOS/android_kernel_xiaomi_onclite" remote="github" revision="lineage-20" />
 
-<!-- CLANG -->
-	<project path="prebuilts/clang/host/linux-x86/clang-r498229b" name="dogpoopy/clang-r498229b" remote="gitlab" revision="13.0" /> 
+  <!-- Clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
+          name="clang-r498229b"
+          remote="lab"
+          revision="13.0" />
 
 <!-- EXTRAS -->
 <remove-project name="packages_apps_FMRadio" />
