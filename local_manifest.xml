@@ -15,7 +15,7 @@
 <project path="kernel/xiaomi/onclite" name="LineageOS/android_kernel_xiaomi_onclite" remote="github" revision="lineage-20" />
 
  <!-- Clang -->
- <project path="prebuilts/clang-standalone" name="aosp-clang" remote="me-lab" revision="17" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="zyc_clang-16" remote="me-lab" revision="main" clone-depth="1"/>
 
 
 </manifest>
