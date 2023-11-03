@@ -17,6 +17,8 @@
 	<!-- CLANG -->
   <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" /> 
 
+	<!-- EXTRAS -->
+	<project path="vendor/bcr" name="Evolution-X/vendor_bcr" remote="github" revision="udc" />
 
 
 </manifest>
